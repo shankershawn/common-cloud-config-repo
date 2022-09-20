@@ -5,7 +5,6 @@ spring:
     bootstrap-servers: 129.154.37.114:9092
     consumer:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-    consumer:
       value-deserializer: com.shankarsan.raspialarm.client.deserialization.MessageDeserializer
 battery-alarm-service:
   ring-battery-alarm:
